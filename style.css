@@ -49,6 +49,10 @@ body {
     color: black;
 }
 
+#main #header #nav-bar a:hover {
+    color: rgb(230, 150, 2);
+}
+
 #main #header #header-img {
     width: 300px;
     margin-left: 30px;
@@ -62,10 +66,29 @@ body {
     margin-top: 110px;
 }
 
-#main form #email {
+#main #form #email {
     margin: 20px;
-    width: 200px;
+    width: 250px;
+    height: 20px;
 }
+
+#main #submit, #priceButton {
+	background: orange;
+	color: inherit;
+    font-weight: bold;
+	border: 3px solid rgb(172, 113, 4);
+	padding: 3px 20px 3px 20px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#main #submit:hover, #priceButton:hover {
+	background: rgb(255, 81, 0);
+	border: 3px solid rgb(204, 68, 5);
+}
+
+
 
 #main #form label {
     font-size: 30px;
@@ -158,6 +181,10 @@ body {
     margin: 20px 5px 5px 5px;
     text-decoration: none;
     color: black;
+}
+
+#main #footer a:hover {
+    color: rgb(255, 81, 0);
 }
 
 #main #footer p {
